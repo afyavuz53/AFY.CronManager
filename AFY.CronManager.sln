@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4E9D3682-C4EE-431F-92D1-00A244000DC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFY.CronManager.Application", "AFY.CronManager.Application\AFY.CronManager.Application.csproj", "{2EE29C68-621A-4099-BFBF-FEAF58DEEBF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFY.CronManager.Domain", "AFY.CronManager.Domain\AFY.CronManager.Domain.csproj", "{397CBCAC-608A-4DC5-9C81-406381CDA782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFY.CronManager.Infrastructure", "AFY.CronManager.Infrastructure\AFY.CronManager.Infrastructure.csproj", "{22BF55EB-0589-47E3-9245-70CC83E1A8AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CronApplication", "CronApplication", "{E28C4CF3-40D2-4856-8350-3FB5FFA01B9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFY.CronManager.HangfireApi", "AFY.CronManager.HangfireApi\AFY.CronManager.HangfireApi.csproj", "{C8B79AF0-36FB-4B75-81B9-BF6D55EDA83A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EE29C68-621A-4099-BFBF-FEAF58DEEBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE29C68-621A-4099-BFBF-FEAF58DEEBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE29C68-621A-4099-BFBF-FEAF58DEEBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE29C68-621A-4099-BFBF-FEAF58DEEBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{397CBCAC-608A-4DC5-9C81-406381CDA782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397CBCAC-608A-4DC5-9C81-406381CDA782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397CBCAC-608A-4DC5-9C81-406381CDA782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397CBCAC-608A-4DC5-9C81-406381CDA782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22BF55EB-0589-47E3-9245-70CC83E1A8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22BF55EB-0589-47E3-9245-70CC83E1A8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22BF55EB-0589-47E3-9245-70CC83E1A8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22BF55EB-0589-47E3-9245-70CC83E1A8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B79AF0-36FB-4B75-81B9-BF6D55EDA83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B79AF0-36FB-4B75-81B9-BF6D55EDA83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B79AF0-36FB-4B75-81B9-BF6D55EDA83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B79AF0-36FB-4B75-81B9-BF6D55EDA83A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EE29C68-621A-4099-BFBF-FEAF58DEEBF4} = {4E9D3682-C4EE-431F-92D1-00A244000DC7}
+		{397CBCAC-608A-4DC5-9C81-406381CDA782} = {4E9D3682-C4EE-431F-92D1-00A244000DC7}
+		{22BF55EB-0589-47E3-9245-70CC83E1A8AE} = {4E9D3682-C4EE-431F-92D1-00A244000DC7}
+		{C8B79AF0-36FB-4B75-81B9-BF6D55EDA83A} = {E28C4CF3-40D2-4856-8350-3FB5FFA01B9C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41379A71-6A14-4112-B67F-5ACFCFCA67E0}
+	EndGlobalSection
+EndGlobal
