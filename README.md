@@ -9,3 +9,5 @@ MySql.Data,
 Hangfire.AspNetCore,
 Hangfire.MySqlStorage,
 Microsoft.Extensions.Options.ConfigurationExtensions
+
+Hazırlanış videosu: https://youtu.be/JrzIRVSxv0A
